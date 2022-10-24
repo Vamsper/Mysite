@@ -1,0 +1,78 @@
+/* div {
+  background-color: #C7F2A4
+} */
+body {
+  margin: 0;
+  text-align: center;
+  font-family: verdana, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 50px;
+  font-family: 'Charmonman', cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: 'Noto Sans Thai', sans-serif;
+  font-size: 2.5rem;
+}
+
+p span {
+  display: inline-block;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+p span::first-letter {
+    text-decoration: underline;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.example-div {
+  background-color: powderblue;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
+.profile {
+  margin-top: 100px;
+}
+.profile-image {
+  width: 20%;
+}
+
+.skill-row {
+  width: 40%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.top-container {
+  position: relative;
+  padding-top: 100px;
+  background-color: #7895B2;
+}
+
+.ai-img {
+  width: 30%;
+  float: left;
+  margin-right: 30px;
+}
+.python-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
