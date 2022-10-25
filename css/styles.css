@@ -1,11 +1,13 @@
-/* div {
-  background-color: #C7F2A4
-} */
 body {
   margin: 0;
   text-align: center;
   font-family: verdana, sans-serif;
   font-size: 20px;
+  background-color: #DFF6FF;
+}
+
+hr {
+  color: Black;
 }
 
 h1 {
@@ -28,6 +30,13 @@ p span::first-letter {
     text-decoration: underline;
 }
 
+.hr2 {
+  border-style: dotted none none;
+  border-color: Black;
+  border-width: 5px ;
+  height: 0px;
+  width: 30%;
+}
 
 .bottom-cloud {
   position: absolute;
@@ -63,7 +72,7 @@ p span::first-letter {
 .top-container {
   position: relative;
   padding-top: 100px;
-  background-color: #7895B2;
+  /* background-color: #7895B2; */
 }
 
 .ai-img {
@@ -75,4 +84,17 @@ p span::first-letter {
   width: 25%;
   float: right;
   margin-left: 30px;
+}
+.nectec-img {
+  width: 50%;
+  float: right;
+  margin-left: 30px;
+}
+.seven-eleven-img {
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+.Logo_PIM-image {
+  width:20%;
 }
